@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    background-color: red;
+    height: 300px;
+    width: 500px;
+}
+
+.flex-container > div {
+    background-color: lightblue;
+    margin: 35px;
+    padding: 20px;
+    width: 100px;
+}
+
+#center-me {
+    align-self: center;
+}
